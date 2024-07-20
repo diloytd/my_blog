@@ -1,0 +1,50 @@
+.aside {
+  position: fixed;
+  background-color: aqua;
+  width: 20rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bground {
+  width: 320px;
+  height: 200px;
+  background-image: url("../images/green_dog_greeting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 60%;
+  z-index: -1;
+}
+
+.avatar {
+  width: 150px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -50px;
+  border: 2px solid black;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.icons_social {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+.icons_social img {
+  width: 30px;
+  height: auto;
+}

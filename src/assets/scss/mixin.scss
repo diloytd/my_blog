@@ -1,0 +1,12 @@
+@mixin fontsPrimiry {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 14px;
+    font-weight:normal;
+} 
+
+@mixin fontsSecond {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: black;
+    font-size: 16px
+}

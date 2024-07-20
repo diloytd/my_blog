@@ -1,0 +1,84 @@
+@import '../scss/mixin.scss';
+@import '../scss/vars.scss';
+.header {
+     width: 100%;
+     height: 50px;
+      background: -webkit-linear-gradient(180deg, rgb(56, 226, 187) 1%, rgb(243, 238, 148));
+     background: -moz-linear-gradient(180deg, rgb(56, 226, 187) 1%, rgb(243, 238, 148));
+     background: linear-gradient(180deg, rgb(56, 226, 187) 1%, rgb(243, 238, 148));
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     @include fontsSecond;
+     color: aliceblue;
+
+     a {
+          color: $primary;
+     }
+ }
+
+.header_left{
+     width: 60%;
+     text-decoration: none;
+ }
+
+.nav_list{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding-top: 10px;
+     list-style-type:none;
+     a {
+          text-decoration: none;
+     }
+}
+
+.nav_item {
+     position: relative; // Для правильного позиционирования стрелки
+     &:hover {
+          text-decoration: underline;
+          color: rgb(3, 63, 16);
+          text-decoration-thickness: 3px;
+          text-underline-offset:10px;
+          text-underline-position:40px;
+             }
+         }
+ 
+.nav_item_subnav {
+     position: relative;
+     &:hover {
+          .subnav {
+               display: block;
+               top: 150%;
+               position: absolute;
+               ~ li {
+                    list-style-type: none;
+               }
+               
+          }
+     }
+}
+
+
+.header_right {
+     align-self: center;
+     margin-right: 1rem;
+     input {
+          width: 15rem;
+          height: 2.5rem;
+          border: 1px solid #cecece;
+          box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+          border-radius: 8px;
+          padding: 10px;
+     }
+}
+
+.subnav {
+     display: none;
+      li {
+          list-style-type: none; 
+      } 
+}
+
+ 
