@@ -38,6 +38,7 @@
 }
 .nav_item:hover {
   text-decoration: underline;
+  transition: 2s linear;
   color: rgb(3, 63, 16);
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;

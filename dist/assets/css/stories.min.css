@@ -1,0 +1,50 @@
+.stories_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 37.5rem;
+  height: 12rem;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.stories_item {
+  position: relative;
+  cursor: pointer;
+}
+
+.stories_item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(59, 177, 78, 0.9081757703) 0%, rgba(247, 249, 247, 0.1) 30%, rgba(247, 249, 247, 0.1) 80%, rgb(201, 200, 139) 100%);
+  z-index: 10;
+}
+
+.stories_img {
+  height: 12rem;
+  width: 147.5px;
+  object-fit: cover;
+}
+
+.stories_title,
+.stories_date {
+  position: absolute;
+  z-index: 100;
+  color: rgb(56, 48, 48);
+  z-index: 100;
+}
+
+.stories_title {
+  top: 0;
+  left: 3px;
+}
+
+.stories_date {
+  bottom: 0;
+  right: 3px;
+}

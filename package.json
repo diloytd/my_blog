@@ -33,6 +33,7 @@
         "IE 10"
     ],
     "dependencies": {
+        "gsap": "^3.12.5",
         "normalize.css": "^8.0.1"
     }
 }

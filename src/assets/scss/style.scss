@@ -5,6 +5,8 @@
 @import '../scss/aside';
 @import './aside.scss';
 @import '../scss/mixin.scss';
+@import './cursor.scss';
+@import './stories.scss';
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +14,7 @@
     
 }
 body {
-    background-color: rgb(204, 73, 73);
+    // background-color: rgb(204, 73, 73);
     @include fontsPrimiry
 }
 
@@ -30,9 +32,6 @@ body {
 .block_one{
     grid-area: 320px;
 }
-
-
-
 
 
 
