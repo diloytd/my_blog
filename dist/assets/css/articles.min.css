@@ -1,0 +1,36 @@
+.addArticle {
+  max-width: 39rem;
+  box-shadow: 0 15px 24px rgba(72, 207, 31, 0.25);
+  transform: translate(29%);
+  margin-top: 50px;
+  background-color: rgba(72, 207, 31, 0.25);
+  padding: 24px;
+}
+
+.addArticle_body {
+  margin-bottom: 23px;
+}
+
+.addArticle_header {
+  font-family: "Roboto", Arial, sans-serif;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 23px;
+}
+.addArticle_header a {
+  text-decoration: none;
+  color: rgb(56, 48, 48);
+}
+
+.addArticle_header-img {
+  max-width: 39rem;
+  margin: -24px;
+  margin-bottom: 23px;
+}
+
+.addArticle_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}

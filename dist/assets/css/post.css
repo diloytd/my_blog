@@ -1,0 +1,26 @@
+.post-add {
+    width: 80%;
+    margin-left: 8rem;
+    margin-top: 28px;
+    border: 1px solid red;
+    height: 5rem;
+    box-shadow: 0 15px 24px rgba(72, 207, 31, 0.25);
+}
+
+#post_add-post {
+    height: 5rem;
+    width: 70%;
+    margin: 0;
+    resize: none;
+    border: none;
+    padding: 28px;
+    background-color: transparent;
+}
+
+.post_add_file {
+    background: url("../images/addfile.png");
+}
+
+.post_add_file input {
+    display: none;
+}

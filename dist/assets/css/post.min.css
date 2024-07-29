@@ -1,0 +1,60 @@
+.post {
+  max-width: 39rem;
+  transform: translate(29%);
+  margin-top: 50px;
+  background-color: rgba(72, 207, 31, 0.25);
+  height: 5rem;
+  box-shadow: 0 15px 24px rgba(72, 207, 31, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post_add-post {
+  width: 70%;
+  margin: 0;
+  resize: none;
+  border: none;
+  padding: 28px;
+  background-color: rgba(72, 207, 31, 0.01);
+}
+.post_add-post::placeholder {
+  font-size: 15px;
+}
+
+.post_add-post:focus {
+  outline: none;
+}
+
+.post_add_file {
+  display: block;
+  background: url("../images/addfile.png");
+  width: 44px;
+  height: 44px;
+  border: 50%;
+  cursor: pointer;
+}
+.post_add_file input {
+  display: none;
+}
+
+.post_add-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 15px;
+  gap: 12px;
+  align-items: center;
+  width: 30%;
+}
+
+.post_add-send {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #3137C9;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}

@@ -18,7 +18,7 @@
 
 <body>
     <!-- <div id="cursor"></div> -->
-    <div id="aura"></div>
+    <!-- <div id="aura"></div> -->
    
     <div class="container">
         <div class="block_one">
@@ -86,7 +86,7 @@
                
                 
                 
-                
+                <!-- stories -->
                 <div class="stories_list">
                     <div class="stories_item">
                         <img src="./assets/images/stories/story1.jpg" alt="история 1" class="stories_img"/>
@@ -109,6 +109,45 @@
                         <data class="stories_date">11.07.2024</data>
                     </div>
                 </div>
+                <!-- post add -->
+                
+                <form type="post" class="post">
+                    <textarea id="post_add-post" placeholder="Написать пост..." class="post_add-post"></textarea>
+                    <div class="post_add-btn">
+                        <label for="post_add-file" class="post_add_file">
+                            <input type="file" class="post_add-file" id="post_add-file">
+                        </label>
+                        <button class="post_add-send">
+                            <img src="./assets/images/send.png" alt="создать пост">
+                        </button>
+                    </div>
+                </form>
+                
+                <!-- articles -->
+                
+                <div class="addArticle">
+                    <div class="addArticle_header"></div>
+                    <div class="addArticle_body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur quis consequuntur. Mollitia perferendis fuga soluta impedit, explicabo asperiores distinctio earum neque et, eum labore corrupti quasi? Incidunt, dolorem nemo?</p>
+                    </div>
+                    <div class="addArticle_footer">
+                        <time datetime="29-07-2024">29.07.2024</time> 
+                    </div>
+                </div>
+                
+                <article class="addArticle">
+                    <div class="addArticle_header">
+                        <img src="./assets/images/stories/article.jpg" alt="что надо знать о питомце" class="addArticle_header-img">
+                        <h1><a href="#">что надо знать о питомце?</a></h1>
+                    </div>
+                    <div class="addArticle_body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur quis consequuntur. Mollitia perferendis fuga soluta impedit, explicabo asperiores distinctio earum neque et, eum labore corrupti quasi? Incidunt, dolorem nemo?</p>
+                    </div>
+                    <div class="addArticle_footer">
+                        <time datetime="29-07-2024">29.07.2024</time> 
+                        <a href="#">Читать...</a>
+                    </div>
+                </article>
                
             </main>
             <footer>

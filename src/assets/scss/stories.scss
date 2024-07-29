@@ -9,12 +9,13 @@
     margin-top: 50px;
     gap:10px;
     
+    
 }
 
 .stories_item{
     position: relative;
     cursor: pointer;
-   
+ 
  }
  .stories_item::after {
     content: '';
@@ -26,11 +27,23 @@
     // opacity: 1 ;
     background: linear-gradient(rgba(59,177,78,0.9081757703081232) 0%,rgba(247, 249, 247, 0.1) 30%,rgba(247, 249, 247, 0.1) 80%, rgba(201,200,139,9) 100%);
      z-index: 10;
+    
+
 }
+
+   
+ 
+ 
 .stories_img{
     height: 12rem;
     width: calc(590px / 4);
     object-fit: cover;
+    transition: transform .4s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+             transition-duration: 4s;
+         
+ }
  }
 
 
@@ -46,8 +59,7 @@
 .stories_title {
     top: 0;
     left: 3px;
-   
-}
+ }
 
 .stories_date {
   bottom: 0;  
