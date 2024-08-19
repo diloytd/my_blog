@@ -1,6 +1,6 @@
 .aside {
     position: fixed;
-    background-color: aqua;
+    background-color: rgba(72, 207, 31, 0.25);
     width: 20rem;
     height: 100vh;
     display: -ms-flexbox;

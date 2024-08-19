@@ -10,3 +10,17 @@
     color: black;
     font-size: 16px
 }
+
+@mixin fonts-h1 {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight:600;
+} 
+
+@mixin fonts-h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    font-weight:500;
+} 

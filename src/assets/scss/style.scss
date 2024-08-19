@@ -9,6 +9,7 @@
 @import './stories.scss';
 @import './post.scss';
 @import './articles.scss';
+@import './NewPagePost.scss';
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,16 +24,22 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 20rem auto;
-    grid-template-rows: auto;
+    //display: grid;
+    // grid-template-columns: 20rem auto;
+    // grid-template-rows: auto;
+    display: flex;
     margin: 0;
     padding: 0;
     gap : 0;
 }
 
 .block_one{
-    grid-area: 320px;
+    // grid-area: 320px;
+    width: 25.3%;
+}
+
+.block_two {
+    flex-grow: 1; 
 }
 
 

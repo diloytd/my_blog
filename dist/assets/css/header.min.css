@@ -17,16 +17,16 @@
 }
 
 .header_left {
-  width: 60%;
-  text-decoration: none;
+  display: flex;
+  padding-left: 15px;
 }
 
 .nav_list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 10px;
   align-items: center;
-  padding-top: 10px;
   list-style-type: none;
 }
 .nav_list a {
@@ -35,6 +35,8 @@
 
 .nav_item {
   position: relative;
+  margin-top: 5px;
+  width: 100px;
 }
 .nav_item:hover {
   text-decoration: underline;

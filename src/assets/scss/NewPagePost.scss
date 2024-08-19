@@ -1,0 +1,114 @@
+@import '../scss/mixin.scss';
+@import '../scss/vars.scss';
+
+.addArticle_newPage{
+    margin-top: 50px;
+    height: auto;
+    
+}
+
+.addArticle_header_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    opacity:0.6;
+    margin-bottom: 15px;
+
+    img{
+        width: 15px;
+        height: auto;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        transition: text-decoration 2s ease-out;
+    }
+}
+
+.addArticle_header_btn-share {
+display: flex;
+align-items: center;
+ 
+}
+
+.addArticle_header_btn-share a{
+    margin-left: 5px;
+}
+
+h1{
+    //
+   @include fonts-h1;
+   margin-bottom: 15px;
+}
+
+h2{
+    @include fonts-h2;
+    margin-bottom: 15px;
+}
+
+h3{
+    @include fontsPrimiry;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.link-articles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+   
+    a {
+ width: 50%;
+margin-bottom: 15px;
+text-decoration: none;
+
+    }
+
+}
+
+
+
+.post_comment{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.addComment_author{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.addComment_avatar {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.addComment_name{
+    height: 20px;
+    display: block;
+ 
+font-size: 12px;
+   
+}
